@@ -1,10 +1,10 @@
 :root {
-    --text-color: #d4d4d4;
-    --background-color: #262626;
-    --accent-color: rgb(3, 194, 45);
+    --text-color: #f2f2f2;
+    --background-color: #333333;
+    --accent-color: #33FF33;
     --selection-color: #404040;
     --border-color: #404040;
-    --line-number-color: #707070;
+    --line-number-color: #a0a0a0;
     --code-background: #1a1a1a;
     --comment-color: #6a9955;
     --keyword-color: #569cd6;
@@ -42,7 +42,7 @@ header {
 
 .logo {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
 }
 
@@ -52,6 +52,7 @@ nav {
     align-items: center;
     border-top: 1px dashed var(--border-color);
     padding-top: 1rem;
+    font-size: 1.4rem;
 }
 
 nav ul {
@@ -80,7 +81,7 @@ nav a.active {
 }
 
 .post-title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
     font-weight: normal;
     color: var(--accent-color);
@@ -88,7 +89,7 @@ nav a.active {
 
 .post-meta-posted {
     color: var(--line-number-color);
-    font-size: 0.9rem;
+    font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -96,7 +97,7 @@ nav a.active {
 
 .post-meta-tags {
     color: var(--line-number-color);
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -107,6 +108,7 @@ nav a.active {
     display: block;
     margin-top: 10px !important;
     margin-bottom: 10px !important;
+    font-size: 1.2rem;
 }
 
 .post-tags {
@@ -121,7 +123,7 @@ nav a.active {
     padding: 0.1rem 0.4rem;
     margin-right: 0.5rem;
     margin-bottom: 0.2rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     transition: all 0.2s ease;
 }
 
@@ -137,11 +139,13 @@ nav a.active {
 
 .post-content {
     margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 .post-content p {
     margin-bottom: 1rem;
     word-wrap: break-word;
+    font-size: 1.2rem;
 }
 
 .post-header {
@@ -154,7 +158,7 @@ nav a.active {
 }
 
 .section-title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
     font-weight: normal;
     color: var(--accent-color);
@@ -163,6 +167,7 @@ nav a.active {
 .section-content p {
     margin-bottom: 1rem;
     word-wrap: break-word;
+    font-size: 1.2rem;
 }
 
 .skill-list {
@@ -179,7 +184,7 @@ nav a.active {
     padding: 0.2rem 0.5rem;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .timeline-item {
@@ -193,13 +198,13 @@ nav a.active {
 }
 
 .timeline-title {
-    font-weight: bold;
     margin-bottom: 0.3rem;
+    font-size: 1.2rem;
 }
 
 .timeline-meta {
     color: var(--line-number-color);
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
@@ -212,6 +217,7 @@ nav a.active {
     margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
 }
 
 .contact-list li:before {
@@ -247,7 +253,7 @@ nav a.active {
     padding: 0.3rem 0.7rem;
     margin-right: 0.7rem;
     margin-bottom: 0.7rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     transition: all 0.2s ease;
     position: relative;
     cursor: pointer;
@@ -267,7 +273,7 @@ nav a.active {
 .tag-count {
     margin-left: 0.5rem;
     color: var(--line-number-color);
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .tag-section {
@@ -275,7 +281,7 @@ nav a.active {
 }
 
 .tag-section-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     color: var(--accent-color);
     border-bottom: 1px dashed var(--border-color);
@@ -329,7 +335,7 @@ nav a.active {
 .nav-label {
     display: block;
     color: var(--line-number-color);
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -363,7 +369,7 @@ nav a.active {
     padding: 0.5rem 1rem;
     background-color: rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid var(--border-color);
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: -1rem -1rem 1rem -1rem;
 }
 
@@ -377,7 +383,7 @@ nav a.active {
     color: var(--text-color);
     cursor: pointer;
     font-family: inherit;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0.2rem 0.5rem;
     border: 1px solid var(--border-color);
     border-radius: 3px;
@@ -390,7 +396,7 @@ nav a.active {
 }
 
 .post-content h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--accent-color);
     margin: 2rem 0 1rem;
     font-weight: normal;
@@ -401,7 +407,7 @@ nav a.active {
 }
 
 .post-content h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--accent-color);
     margin: 1.5rem 0 1rem;
     font-weight: normal;
@@ -418,6 +424,7 @@ nav a.active {
 
 .post-content li {
     margin-bottom: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .post-content a {
@@ -435,7 +442,7 @@ footer {
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
     color: var(--line-number-color);
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .cursor {
